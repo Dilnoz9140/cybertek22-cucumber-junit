@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-08T22:13:50.275Z",
+        "line": 4,
+        "name": "User should be able to see all 12 months in months",
+        "description": "  dropdown",
+        "id": "examples-of-cucumber-data-table-implementations;user-should-be-able-to-see-all-12-months-in-months",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 8000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User is on the dropdowns page of practice tool",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User should see below info in month dropdown",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.afterStep()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "January"
+                ]
+              },
+              {
+                "cells": [
+                  "February"
+                ]
+              },
+              {
+                "cells": [
+                  "March"
+                ]
+              },
+              {
+                "cells": [
+                  "April"
+                ]
+              },
+              {
+                "cells": [
+                  "May"
+                ]
+              },
+              {
+                "cells": [
+                  "June"
+                ]
+              },
+              {
+                "cells": [
+                  "July"
+                ]
+              },
+              {
+                "cells": [
+                  "August"
+                ]
+              },
+              {
+                "cells": [
+                  "September"
+                ]
+              },
+              {
+                "cells": [
+                  "October"
+                ]
+              },
+              {
+                "cells": [
+                  "November"
+                ]
+              },
+              {
+                "cells": [
+                  "December"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Examples of Cucumber data table implementations",
+    "description": "",
+    "id": "examples-of-cucumber-data-table-implementations",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dataTable.feature",
+    "tags": []
+  }
+]
